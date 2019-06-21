@@ -1,3 +1,4 @@
+
 def badge_maker(name)
   return "Hello, my name is #{name}."
 
@@ -10,7 +11,9 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(name)
+  new = []
   name.each_with_index do |string, index|
-      return "Hello, #{string}! You'll be assigned to room #{index}!"
+      "Hello, #{string}! You'll be assigned to room #{index}!"
+      name
   end
 end
