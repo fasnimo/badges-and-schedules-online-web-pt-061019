@@ -17,10 +17,10 @@ names.collect.with_index do |string, index|
 end
 
 def printer(arrays)
-batch_badge_creator(array).each do |method|
+batch_badge_creator(arrays).each do |method|
 puts method
 end
-assign_rooms(names).each do |method|
+assign_rooms(arrays).each do |method|
 puts method
 end
 
