@@ -16,8 +16,12 @@ name.collect.with_index do |string, index|
     end
 end
 
-# def assign_rooms(name)
-# name.each_with_index do |string, index|
-# return "Hello, #{string}! You'll be assigned to room #{index}!"
-# end
-# end
+def printer(array)
+badge_collector(array).each do |method|
+puts method
+end 
+assign_rooms(array).each do |method|
+puts method
+end
+
+end
