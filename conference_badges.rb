@@ -12,7 +12,7 @@ end
 
 def assign_rooms(name)
 name.collect.with_index do |string, index|
-      "Hello, #{string}! You'll be assigned to room #{index}!"
+      "Hello, #{string += 1}! You'll be assigned to room #{index}!"
     end
 end
 
