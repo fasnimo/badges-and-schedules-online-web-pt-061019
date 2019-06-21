@@ -19,7 +19,7 @@ end
 def printer(array)
 badge_collector(array).each do |method|
 puts method
-end 
+end
 assign_rooms(array).each do |method|
 puts method
 end
