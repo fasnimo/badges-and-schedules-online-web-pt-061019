@@ -4,23 +4,23 @@ def badge_maker(name)
 
 end
 
-def batch_badge_creator(names)
-  names.map do |speaker|
+def batch_badge_creator(array)
+  array.map do |speaker|
     badge_maker(speaker)
   end
 end
 
-def assign_rooms(name)
+def assign_rooms(names)
 name.collect.with_index do |string, index|
       "Hello, #{string}! You'll be assigned to room #{index + 1}!"
     end
 end
 
-def printer(array)
-batch_badge_creator(names).each do |method|
+def printer(arrays)
+batch_badge_creator(array).each do |method|
 puts method
 end
-assign_rooms(name).each do |method|
+assign_rooms(names).each do |method|
 puts method
 end
 
