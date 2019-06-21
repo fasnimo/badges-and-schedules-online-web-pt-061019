@@ -13,7 +13,7 @@ end
 def assign_rooms(name)
   new = []
   name.each_with_index do |string, index|
-      "Hello, #{string}! You'll be assigned to room #{index}!"
-        name
+      return "Hello, #{string}! You'll be assigned to room #{index}!"
+    new  
   end
 end
